@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+
+:root {
+
+
+  --main-bg-color: #ffffff;
+  --green-color: #06945b;
+  --green-1-color: #68e5a2;
+  --bleu-color: #395be0;
+  --yellow-color: #fae053;
+  --other-color: #f1b280;
+  --text-color: #011218;
+
+
+}
+
+html{
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 5rem;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul a{
+  color: var(--text-color);
+}
+
+.header-btn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-btn button{
+  background-color: var(--text-color);
+  color: white;
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.home{
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.home h1{
+  font-size: 50px;
+}
+
+.home p{
+  text-align: center;
+}
+
+.home p a{
+  color: gray;
+  font-size: small;
+}
+
+.home img{
+  height: 400px;
+}
+
+.home-btn{
+  background-color: var(--green-color);
+  color: white;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid var(--text-color);
+  border-radius: 15px;
+}
+
+
